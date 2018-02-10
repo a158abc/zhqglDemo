@@ -1,0 +1,90 @@
+/*Reset*/
+html{color:#000;background:#fff}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;font-size:100%}legend{color:#000}
+
+/*General*/
+h2 { margin-bottom: .25rem; }
+a { margin-bottom: .5rem; }
+.ui-content { padding: .5rem; }
+
+/*Lists*/
+li { border: 1px solid #666; padding: .25rem; }
+
+/*Toggle*/
+.toggle { font-weight: bold; padding: .25rem; }
+.toggle:after { content: " +"; }
+.toggle + ul { display: none; }
+.toggle.active:after { content: " -"; }
+.toggle.active + ul { display: block; }
+
+/*table{*/
+    /*border: 0.1rem solid gray;*/
+    /*margin: 0 auto;*/
+/*}*/
+/*table thead{*/
+    /*background-color: orangered;*/
+/*}*/
+/*table td{*/
+    /*text-align: center;*/
+/*}*/
+
+/*----------用来移除向下箭头----------*/
+/*input[type="date"]::-webkit-calendar-picker-indicator {*/
+    /*display: none;*/
+/*}*/
+
+/*----------用来移除叉叉按钮----------*/
+input[type="date"]::-webkit-clear-button {
+    display: none;
+}
+
+/*::-webkit-datetime-edit { padding: 1px; background: url(/study/image/selection.gif); }*/
+input[type="date"]::-webkit-datetime-edit-fields-wrapper { background-color: #eee; }
+input[type="date"]::-webkit-datetime-edit-text { color: #4D90FE; padding: 0 .3em; }
+input[type="date"]::-webkit-datetime-edit-year-field { color: purple; }
+input[type="date"]::-webkit-datetime-edit-month-field { color: blue; }
+input[type="date"]::-webkit-datetime-edit-day-field { color: green; }
+input[type="date"]::-webkit-inner-spin-button { visibility: hidden; }
+input[type="date"]::-webkit-calendar-picker-indicator {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-shadow: inset 0 1px #fff, 0 1px #eee;
+    background-color: #eee;
+    background-image: -webkit-linear-gradient(top, #f0f0f0, #e6e6e6);
+    color: #666;
+}
+
+/*.griditem{*/
+    /*width: 10rem;*/
+    /*float: left;*/
+    /*margin: 1rem;*/
+    /*height: 3rem;*/
+/*}*/
+
+/*.searchBar{*/
+    /*position:fixed;*/
+    /*background-color:#Fff;*/
+    /*bottom:3rem;*/
+    /**/
+/*}*/
+
+/*.isFixed{*/
+    /*position:fixed;*/
+    /*background-color:#Fff;*/
+    /*top:0;*/
+    /*z-index:999;*/
+/*}*/
+
+/*ul {*/
+    /*WIDTH: 100%;*/
+    /*height: 40px;*/
+    /*line-height: 40px;*/
+/*}*/
+/*li {*/
+    /*font-size: 0.8rem;*/
+    /*text-align: center;*/
+/*}*/
+/*i {*/
+    /*font-size: 0.9rem;*/
+    /*padding-left: 5px;*/
+    /*color: #ccc;*/
+/*}*/
